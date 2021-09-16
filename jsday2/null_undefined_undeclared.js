@@ -11,3 +11,9 @@ let b=null;
 
 //undeclared value: isko let var const nahi diya but isme kuch value daal di directly,undeclared values are stored in global object in node js
 
+c=15;
+
+console.log(c);
+console.log(global.c)
+
+

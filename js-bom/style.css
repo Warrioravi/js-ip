@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: aliceblue; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    height: 50vh;
+    width: 40vw;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+[type="text"],[type="password"]{
+    height: 8vh;
+    width: 25vw;
+    font-size: 5vh;
+}
+button{
+    height: 6vh;
+    width: 15vw;
+    border-radius: 3vh;
+}
